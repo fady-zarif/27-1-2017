@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TripDetailsActivity">
+    <item
+        android:id="@+id/action_status"
+        app:showAsAction="always"
+        android:title=""
+        android:enabled="false"
+        android:checked="false"
+        android:checkable="false"
+        app:actionLayout="@layout/custom_action_bar"
+        android:visible="true"/>
+    <item
+        android:title="Log out"
+        android:id="@+id/actionLogout"/>
+</menu>
